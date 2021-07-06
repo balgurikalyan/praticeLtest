@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticeltest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4  bg-info">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+            <i class="bi bi-laptop"></i>
+            praticeLtest
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#tests">Tests</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#test">About The Test</a>
+            </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <!-- <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">buy now</a>
+          </li> -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black-Belt</div>
+                        <div class="display-5 text-muted">Your skills</div>
+                      </h1>
+                </div>
+                <div class="col-md-6 text-center d-none d-md-block">
+                    <img src="assets/image1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tests -->
+    <section id="tests" class="align-items-center bg-secondary">
+        <div class="container-lg">
+            <div class="row g-5 justify-content-center align-items-center">
+                <div class="col-8 col-lg-3 text-center">
+                    <div class="card border-1">
+                        <div class="card-body text-center py-4">
+                          <h4 class="card-title">Test 1</h4>
+                          <p class="lead card-subtitle">Verbal</p>
+                          <p class="display-5 my-4 text-primary fw-bold">20 Marks</p>
+                          <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                            Attempt Now
+                          </a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-8 col-lg-3 text-center">
+                    <div class="card border-1">
+                        <div class="card-body text-center py-4">
+                          <h4 class="card-title">Test 1</h4>
+                          <p class="lead card-subtitle">Essays</p>
+                          <p class="display-5 my-4 text-primary fw-bold">20 Marks</p>
+                          <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                            Attempt Now
+                          </a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-8 col-lg-3 text-center">
+                    <div class="card border-1">
+                        <div class="card-body text-center py-4">
+                          <h4 class="card-title">Test 1</h4>
+                          <p class="lead card-subtitle">Quant</p>
+                          <p class="display-5 my-4 text-primary fw-bold">20 Marks</p>
+                          <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                            Attempt Now
+                          </a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-8 col-lg-3 text-center">
+                    <div class="card border-1">
+                        <div class="card-body text-center py-4">
+                          <h4 class="card-title">Test 1</h4>
+                          <p class="lead card-subtitle">Aptitude</p>
+                          <p class="display-5 my-4 text-primary fw-bold">20 Marks</p>
+                          <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                            Attempt Now
+                          </a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- topics at a glance -->
+    <section id="test">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>About the Test</h2>
+                <p class="lead text-muted">A quick glance at the pattern of the test.</p>
+            </div>
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+            <div class="col-lg-4 d-none d-lg-block">
+                <img src="/assets/image2.jpg" alt="image2" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+                 <!-- accordion -->
+                <div class="accordion" id="chapters">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                        Test-1 Verbal
+                        </button>
+                    </h2>
+                    <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                        Test-2 Essays
+                        </button>
+                    </h2>
+                    <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                        Test -3 Quant
+                        </button>
+                    </h2>
+                    <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                        Test-4 Aptitude
+                        </button>
+                    </h2>
+                    <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            </div>
+            </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
