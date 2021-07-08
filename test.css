@@ -1,0 +1,9 @@
+h1{
+    text-decoration: underline;
+    margin: 0;
+    margin-left: 40%;
+}
+li{
+    display: grid;
+    margin: 30px 0;
+}
